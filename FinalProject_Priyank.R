@@ -222,7 +222,7 @@ ggplot(rf, aes(x=yhat.bag ,y=tst)) +
   geom_abline(slope=1,intercept=0) +
 labs(x="predicted count",
      y="test count",
-     title="Rand Forest: Regression")
+     title="Random Forest: Regression")
 
 
 
